@@ -1,0 +1,7 @@
+<launch>
+ <node name="ScreenCapturer" pkg="practica1" type="p1.py" output="screen"></node>
+ <node name="BoardDetection" pkg="practica1" type="p2.py" output="screen"></node>
+ <node name="BoardInfoExtractor" pkg="practica1" type="p3.py" output="screen"></node>
+ <node name="GameLogic" pkg="practica1" type="p4.py" output="screen"></node>
+ <node name="ActionLogic" pkg="practica1" type="p5.py" output="screen"></node>
+</launch>

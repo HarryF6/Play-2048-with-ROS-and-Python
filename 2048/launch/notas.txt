@@ -1,0 +1,3 @@
+<node name="GameLogic" pkg="practica1" type="p4.py" output="screen"></node>
+ <node name="ActionLogic" pkg="practica1" type="p5_c" output="screen"></node>
+ <node name="StatisticsNode" pkg="practica1" type="p5.py" output="screen"></node>
